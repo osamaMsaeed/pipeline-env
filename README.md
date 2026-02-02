@@ -25,3 +25,6 @@ This script is especially useful in Docker, CI/CD pipelines, configuration templ
 
 ```bash
 ./replace-vars.sh <input-file> <output-file>
+
+```bash
+wget -O - https://raw.githubusercontent.com/osamaMsaeed/pipeline-env/main/replace-vars.sh | bash -s <input-file> <output-file>
